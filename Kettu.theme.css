@@ -1,124 +1,17 @@
-/**
- * @name Kettu Theme - Wallpaper
- * @author Custom
- * @version 1.0
- * @description Personalized theme with custom wallpaper for Kettu mobile
- */
-
-/* ========================================
-   BACKGROUND WALLPAPER
-   ======================================== */
-
-/* Aplicar wallpaper em todas as áreas escuras */
-[class*="theme-dark"],
-.theme-dark,
-[data-user-id],
-.app-3xd8d0,
-.appMount-3lHmkl {
-    background: url('https://i.imgur.com/Wpn1Wev.jpeg') no-repeat center center fixed !important;
-    background-size: cover !important;
-}
-
-/* ========================================
-   SIDEBAR / CANAIS (Esquerda)
-   ======================================== */
-
-/* Lista de servidores */
-[class*="sidebar"] [class*="container"] {
-    background: rgba(40, 40, 40, 0.75) !important;
-    backdrop-filter: blur(10px) !important;
-}
-
-/* Lista de canais do servidor */
-[class*="channelContainer"],
-[class*="channels"],
-[class*="privateChannels"] {
-    background: rgba(40, 40, 40, 0.7) !important;
-    backdrop-filter: blur(8px) !important;
-}
-
-/* ========================================
-   ÁREA DE CHAT / MENSAGENS
-   ======================================== */
-
-/* Container principal de mensagens */
-[class*="chat"],
-.chat-3bRxxu,
-[class*="messagesWrapper"] {
-    background: transparent !important;
-}
-
-/* Área de mensagens com transparência */
-[class*="scroller"],
-[class*="messages"] {
-    background: rgba(30, 30, 30, 0.6) !important;
-    backdrop-filter: blur(5px) !important;
-}
-
-/* ========================================
-   LISTA DE MEMBROS (Direita)
-   ======================================== */
-
-/* Lista de membros do servidor */
-[class*="members"],
-[class*="memberList"],
-[class*="container"] [class*="online"] {
-    background: rgba(40, 40, 40, 0.7) !important;
-    backdrop-filter: blur(8px) !important;
-}
-
-/* ========================================
-   PAINEL DO USUÁRIO (Rodapé)
-   ======================================== */
-
-/* Painel do usuário no canto inferior */
-[class*="panel"],
-[class*="userPanel"],
-[class*="nowPlayingColumn"] {
-    background: rgba(40, 40, 40, 0.75) !important;
-    backdrop-filter: blur(10px) !important;
-}
-
-/* ========================================
-   CABEÇALHO / TOPBAR
-   ======================================== */
-
-/* Barra superior do canal */
-[class*="header"],
-[class*="titleBar"],
-[class*="topSection"] {
-    background: rgba(40, 40, 40, 0.8) !important;
-    backdrop-filter: blur(10px) !important;
-}
-
-/* ========================================
-   MODIFIADORES ADICIONAIS
-   ======================================== */
-
-/* Escurecer levemente o fundo geral */
-body,
-.app-3xd8d0 {
-    background: rgba(0, 0, 0, 0.3) !important;
-}
-
-/* Bordas arredondadas opcionais */
-[class*="container"],
-[class*="panel"],
-[class*="channel"] {
-    border-radius: 8px !important;
-    margin: 4px !important;
-}
-
-/* ========================================
-   SUPORTE PARA MODO CLARO (opcional)
-   ======================================== */
-
-.theme-light [class*="sidebar"],
-.theme-light [class*="channels"] {
-    background: rgba(240, 240, 240, 0.8) !important;
-}
-
-.theme-light [class*="chat"],
-.theme-light [class*="scroller"] {
-    background: rgba(230, 230, 230, 0.7) !important;
+{
+    "name": "Wallpaper Only",
+    "description": "Apenas o wallpaper do tema RosieDark, sem alterações de cores ou fontes.",
+    "version": "1",
+    "authors": [
+        {
+            "name": "Você",
+            "id": "0"
+        }
+    ],
+    "background": {
+        "blur": 0.1,
+        "url": "https://i.imgur.com/Wpn1Wev.jpeg",
+        "alpha": 0.4
+    },
+    "spec": 2
 }
