@@ -1,1 +1,17 @@
-
+{
+  "name": "karin gostosa",
+  "description": "choco based",
+  "version": "1",
+  "authors": [
+    {
+      "name": "Você",
+      "id": "0"
+    }
+  ],
+  "background": {
+    "blur": 0.1,
+    "url": "https://i.imgur.com/g8Kyakb.jpeg",
+    "alpha": 0.4
+  },
+  "spec": 2
+}
